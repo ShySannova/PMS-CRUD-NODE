@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(173, 187, 228);
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    padding: 40px 0;
+}
+
+.input-panel{
+    display: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 18%;
+    justify-content: space-around;
+}
+
+.input-panel.active{
+    display: grid;
+}
+
+input{
+    padding: 5px 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+i{
+    color: black;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+button{
+    cursor: pointer;
+}
+
